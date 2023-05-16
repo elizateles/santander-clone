@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caixa {
+    padding: 25px;
+}
+
+.logo {
+    width: 130px;   
+}
+
+.link-voce {
+    color: #000000;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link-voce:hover {
+    text-decoration: underline;
+}
+
+.link-empresa {
+    color: #000000;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.link-empresa:hover {
+    text-decoration: underline;
+}
+
+.background {
+    width: 100%;
+
+}
+
+h3 {
+    margin-left: 400px;
+    margin-top: 60px;
+    font-size: 40px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+
+
+li {
+    height: 150px;
+    width: 190px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+li:hover {
+    box-shadow: inset -8px 8px 8px #e73232, -8px 8px 8px #e73232;   
+
+}
+
+.imagem-produtos {
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+section.footer{
+    text-align: center;
+    font-size: 16px;
+
+   
+}
+
+.footer__rodape {
+    background: #4F4C4C;
+    padding: 10px;
+    height: 40px;
+}
+
